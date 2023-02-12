@@ -44,7 +44,7 @@ const Comments = ({ frontMatter }) => {
       {BLOG.comment && BLOG.comment.provider === 'utterances' && (
         <UtterancesComponent issueTerm={frontMatter.id} />
       )}
-      {router.pathname === 'about' && BLOG.comment && BLOG.comment.provider === 'cusdis' && (
+      {router.query.slug !== 'about' && BLOG.comment && BLOG.comment.provider === 'cusdis' && (
         <CusdisComponent
         lang={fetchCusdisLang()}
           attrs={{
