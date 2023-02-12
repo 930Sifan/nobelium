@@ -3,7 +3,7 @@ const BLOG = {
   author: '930Sifan',
   email: 'stfwang@outlook.com',
   link: 'https://930sifan.vercel.app',
-  description: 'Hello.',
+  description: '',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
